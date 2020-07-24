@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.petagram.MainActivity">
+
+
+    <item android:title="@string/Favorito"
+        android:icon="@drawable/ic_baseline_star_24"
+        android:id="@+id/iconFavorito"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>
